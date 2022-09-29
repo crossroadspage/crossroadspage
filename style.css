@@ -1,0 +1,297 @@
+*{
+  margin: 0; 
+  padding: 0;
+}
+
+body{
+  background-color: #daf3d9;
+  max-width: 1400px;
+  margin: 0 auto;
+  font-family: HG正楷書体-PRO;
+}
+
+ul{
+  list-style: none;
+}
+a{
+ text-decoration: none;
+ color: #000;
+}
+
+header{
+  display: flex;
+  height: 80px;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+footer{
+  background-color: #fff;
+  height: 200px;
+}
+
+.logo img{
+  height: 160px;
+}
+
+.float-left{
+  display: flex;
+  margin-left: 100px;
+}
+
+.float-right{
+  background-color: black;
+
+}
+
+.float-right a{
+  display: block;
+  line-height: 80px;
+  padding: 0 25px;
+  color: white;
+}
+
+main img{
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+.contener{
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.mainvisual{
+  margin-bottom: 120px;
+  position: relative;
+}
+
+.name{
+  color: gold;
+  writing-mode: vertical-rl;
+  font-size: 30px;
+  position: absolute;
+  right: 60px;
+  bottom: 60px;
+  font-style: italic;
+}
+.name h1{
+  margin-right: 20px;
+
+}
+
+.about{
+  margin: 180px 0 0 70px;
+}
+
+.title h4{
+  margin: 10px 0 40px 0;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #000;
+  display: inline-block;
+}
+
+.items{
+  display: flex;
+  justify-content: center;
+}
+
+.item{
+  width: 35%;
+}
+
+.item p{
+  margin-bottom: 10px;
+}
+
+.item img{
+  height:auto;
+}
+
+.company{
+  display: flex;
+  margin-bottom: 120px;
+  position: relative;
+}
+.wrapper{
+  background-color: #fff;
+  width:55%;
+  padding: 100px 140px 100px 60px;
+
+}
+
+.info{
+  display: flex;
+}
+
+.company li{
+  margin-bottom: 20px;
+}
+
+.profile{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 160px;
+  line-height: 40px;
+}
+
+#header-ul{
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+}
+
+#header-li{
+  margin-right: 30px;
+}
+ 
+#about{
+  display: flex;
+  margin-bottom: 120px;
+}
+
+
+#about-img{
+  height: 400px;
+ 
+}
+
+#item1{
+  margin-bottom: 50px;
+}
+
+#item-left{
+  margin: 150px 60px;
+}
+
+#item-right{
+  margin-top: 50px;
+}
+
+#list-left{
+  margin-left: 30px;
+}
+
+#company img{
+ width: 50%;
+  height: 400px;
+  position: absolute;
+  right: 0;
+  top: 100px;
+}
+
+/* tabret */
+
+@media screen and (max-width: 900px){
+  header{
+    height: 0;
+  }
+  
+  .float-left{
+    display: none;
+    margin: 0;
+
+  }
+  
+  .contener{
+    display: block;
+   
+  }
+  
+  .float-right{
+    display: none;
+  }
+  .name{
+    writing-mode: horizontal-tb;
+    left: 30px;
+    top: 30px;
+ 
+  }
+  .items{
+    display: block;   
+  }
+  .item{
+    width: 80%;
+  }
+  .contener{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .profile{
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .about{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40px;
+  }
+  .about p{
+    text-align: left;
+  }
+  #servis{
+    margin: 0 auto;
+    text-align: center;
+  }
+  #about{
+    display: block;    
+  }
+  #item-left{
+    margin: 0 auto 50px; 
+  }
+  
+  #item-right{
+    margin: 0 auto 50px;
+  }
+    
+  #list-left{
+    margin-left: 0px;    
+  }
+  
+  .company{
+    display: block;
+    margin-bottom: 120px;
+    text-align: center;
+  }
+  .wrapper{
+    background-color: #fff;
+    width:100%;
+    padding: 0;
+    margin: 0 auto 20px;  
+  }
+  .list{
+    width:20%;
+    text-align: left;
+    margin: 0 auto;
+  }
+  .company li{
+    margin-bottom: 20px;
+  }
+ 
+  .profile{
+   text-align: center;
+    height: 100px;
+    line-height: 40px;
+  }
+
+  #company img{
+    width: 80%;
+    height: auto;
+    position: static;
+
+  }
+
+#copy{
+  display: none;
+}
+
+footer{
+  background-color: darkgreen;
+  color: #fff;
+}
+
+  }
