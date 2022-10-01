@@ -284,6 +284,10 @@ main img{
     position: static;
 
   }
+  
+  #list-left{
+    line-height:30px;
+  }
 
 #copy{
   display: none;
